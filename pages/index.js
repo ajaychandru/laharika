@@ -10,8 +10,9 @@ import LatestNewsSlider from "../components/Common/LatestNewsSlider";
 import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 import Partner from "../components/Common/Partner";
 import Footer from "../components/Layouts/Footer";
+import PortfolioDetailsContent2 from "../components/Portfolio/PortfolioDetailsContent2";
 
-const StudioAgency2 = () => {
+const Index = () => {
   return (
     <>
       <NavbarTwo />
@@ -19,6 +20,7 @@ const StudioAgency2 = () => {
       <MainBanner />
 
       <Services />
+      <PortfolioDetailsContent2 />
 
       <OurWorks />
 
@@ -28,7 +30,7 @@ const StudioAgency2 = () => {
 
       <Feedback />
 
-      <LatestNewsSlider />
+      {/* <LatestNewsSlider /> */}
 
       <CtaAreaTwo />
 
@@ -39,4 +41,4 @@ const StudioAgency2 = () => {
   );
 };
 
-export default StudioAgency2;
+export default Index;

@@ -1,17 +1,24 @@
 import React from "react";
 import Image from "next/image";
 
-import portfolioImg1 from "../../public/images/portfolio/portfolio1.jpg";
-import portfolioImg2 from "../../public/images/portfolio/portfolio2.jpg";
-import portfolioImg3 from "../../public/images/portfolio/portfolio3.jpg";
-import portfolioImg4 from "../../public/images/portfolio/portfolio4.jpg";
-import portfolioImg5 from "../../public/images/portfolio/portfolio5.jpg";
+import portfolioImg1 from "../../public/images/arjun.jpeg";
+import portfolioImg2 from "../../public/images/wedding.jpeg";
+import portfolioImg3 from "../../public/images/mylogo.png";
+import portfolioImg4 from "../../public/images/singing.jpeg";
+import portfolioImg5 from "../../public/images/event.jpeg";
 
 const PortfolioDetailsContent2 = () => {
   return (
     <>
       <div className="portfolio-details ptb-100">
         <div className="container">
+          <div className="section-title">
+            <h2>Our Event Showcase</h2>
+            <p>
+              CExplore the Moments We've Brought to Life Through Creativity and
+              Precision.
+            </p>
+          </div>
           <div className="row m-0">
             <div className="col-lg-4 col-md-6 p-0">
               <div className="portfolio-details-image">
@@ -56,7 +63,7 @@ const PortfolioDetailsContent2 = () => {
                     />
                   </div>
                 </div>
-                
+
                 <div className="col-lg-12 col-md-6 pl_0">
                   <div className="portfolio-details-image">
                     <Image
@@ -71,7 +78,7 @@ const PortfolioDetailsContent2 = () => {
             </div>
           </div>
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-12">
               <div className="portfolio-desc">
                 <h2>We Provide Useful Services</h2>
@@ -184,7 +191,7 @@ const PortfolioDetailsContent2 = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

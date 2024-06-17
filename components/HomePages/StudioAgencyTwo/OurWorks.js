@@ -70,14 +70,11 @@ const ourWorksData = [
 const OurWorks = () => {
   return (
     <>
-      <section className="case-studies-area ptb-100">
+      <section id="work" className="case-studies-area ptb-100">
         <div className="container-fluid">
           <div className="section-title">
-            <h2>Our Projects</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>Showcasing Our Expertise and Creativity</h2>
+            <p>A Glimpse into Our Most Remarkable Event Transformations.</p>
           </div>
 
           <Swiper
@@ -113,7 +110,12 @@ const OurWorks = () => {
               ourWorksData.map((value, i) => (
                 <SwiperSlide key={i}>
                   <div className="work-card">
-                    <Image src={value.image} alt="image" width={510} height={750} />
+                    <Image
+                      src={value.image}
+                      alt="image"
+                      width={510}
+                      height={750}
+                    />
 
                     <div className="content text-center">
                       <span>

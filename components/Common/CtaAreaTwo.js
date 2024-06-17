@@ -4,7 +4,7 @@ import Link from "next/link";
 const CtaAreaTwo = () => {
   return (
     <>
-      <div className="cta-area-two ptb-100">
+      <div id="contact-us" className="cta-area-two ptb-100">
         <div className="container">
           <div className="cta-content">
             <span

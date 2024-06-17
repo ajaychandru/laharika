@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from '../../public/images/logo.png';
+import logo from "../../public/images/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,28 +12,19 @@ const Footer = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="100"
               >
                 <div className="logo">
                   <Link href="/">
-                    <Image 
-                      src={logo}
-                      alt="Logo" 
-                      width={150}
-                      height={40}
-                    />
+                    <Image src={logo} alt="Logo" width={150} height={40} />
                   </Link>
                 </div>
 
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
-                </p>
+                <p>Premier Event Management Services for Every Occasion.</p>
 
                 <ul className="social-links">
                   <li>
@@ -61,100 +52,80 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget ml-4 pl-5"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="200"
               >
                 <h3>Explore</h3>
 
                 <ul className="list">
                   <li>
-                    <Link href="/">
-                      Home
-                    </Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="/about/">
-                      About
-                    </Link>
+                    <Link href="/#about">About</Link>
                   </li>
                   <li>
-                    <Link href="/services/">
-                      Services
-                    </Link>
+                    <Link href="/#service">Services</Link>
                   </li>
                   <li>
-                    <Link href="/portfolio/">
-                      Portfolio
-                    </Link>
+                    <Link href="/#work/">Portfolio</Link>
                   </li>
-                  <li>
-                    <Link href="/team/">
-                      Team
-                    </Link>
-                  </li>
+                  {/* <li>
+                    <Link href="//">Team</Link>
+                  </li> */}
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
-              <div 
+            {/* <div className="col-lg-3 col-sm-6">
+              <div
                 className="single-footer-widget ml-4"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 <h3>Quick Links</h3>
 
                 <ul className="list">
                   <li>
-                    <Link href="/contact-us/">
-                      Contact Us
-                    </Link>
+                    <Link href="/contact-us/">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="/pricing/">
-                      Pricing
-                    </Link>
+                    <Link href="/pricing/">Pricing</Link>
                   </li>
                   <li>
-                    <Link href="/faq/">
-                      Faq
-                    </Link>
+                    <Link href="/faq/">Faq</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy/">
-                      Privacy Policy
-                    </Link>
+                    <Link href="/privacy-policy/">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions/">
-                      Terms & Conditions
-                    </Link>
+                    <Link href="/terms-conditions/">Terms & Conditions</Link>
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1000" 
+                data-aos="fade-in"
+                data-aos-duration="1000"
                 data-aos-delay="400"
               >
                 <h3>Get in Touch</h3>
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra Street
-                    Victoria, Canada.
+                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra
+                    Street Victoria, Canada.
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a> 
+                    <a href="tel:+324-9442-515">+324-9442-515</a>
                     <br />
                     <a href="tel:+324-9442-515">+324-9442-999</a>
                   </li>

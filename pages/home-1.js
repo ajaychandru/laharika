@@ -13,7 +13,7 @@ import CtaArea from "../components/Common/CtaArea";
 import Partner from "../components/Common/Partner";
 import Footer from "../components/Layouts/Footer";
 
-const Index = () => {
+const Home1 = () => {
   return (
     <>
       <Navbar />
@@ -45,4 +45,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Home1;

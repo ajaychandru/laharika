@@ -1,16 +1,16 @@
 import React from "react";
 import Image from "next/image";
 
-import aboutImg from '../../../public/images/about-img4.jpg';
+import aboutImg from "../../../public/images/our-team.jpeg";
 
 const About = () => {
   return (
     <>
-      <section className="about-area ptb-100">
+      <section id="about" className="about-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
-              <div 
+              <div
                 className="about-image"
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -18,7 +18,7 @@ const About = () => {
               >
                 <Image
                   src={aboutImg}
-                  alt="image"
+                  alt="About Us"
                   className="rounded-10"
                   width={500}
                   height={750}
@@ -31,19 +31,21 @@ const About = () => {
                 <div className="section-title">
                   <h2>About Us</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                    At Laharika creations, we believe in transforming your
+                    vision into reality. With a passion for perfection and an
+                    eye for detail, we specialize in creating events that leave
+                    lasting impressions.
                   </p>
                 </div>
 
                 <div className="about-text">
                   <h4>Who We Are</h4>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi architecto beatae vitae dicta sunt explicabo.
+                    Founded in [Year], Laharika is a premier event management
+                    company known for its creativity, innovation, and commitment
+                    to excellence. Our team of experienced professionals is
+                    dedicated to crafting events that are as unique as our
+                    clients.
                   </p>
                 </div>
 
@@ -52,18 +54,16 @@ const About = () => {
                   <ul>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                      Successfully planned and executed over [X] events.
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      It is a long established fact that a reader will be
-                      distracted by the readable.
+                      Renowned for our attention to detail and personalized
+                      service.
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text.
+                      Trusted by top corporations and individuals alike.
                     </li>
                   </ul>
                 </div>
@@ -71,10 +71,22 @@ const About = () => {
                 <div className="about-text">
                   <h4>Our Mission</h4>
                   <p>
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth.
+                    Our mission is to exceed our clients' expectations by
+                    delivering extraordinary events that reflect their unique
+                    vision and style. We aim to create memorable experiences
+                    through meticulous planning, innovative solutions, and
+                    flawless execution.
+                  </p>
+                </div>
+
+                <div className="about-text">
+                  <h4>Understanding Client Expectations</h4>
+                  <p>
+                    We always strive to understand our clients' expectations and
+                    ensure every detail reflects their vision and exceeds their
+                    expectations. Your satisfaction is our highest priority, and
+                    we are committed to delivering excellence in every event we
+                    manage.
                   </p>
                 </div>
               </div>

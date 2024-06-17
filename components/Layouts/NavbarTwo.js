@@ -80,14 +80,14 @@ const NavbarTwo = () => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link
-                    href="#"
+                    href="/"
                     className="nav-link"
-                    onClick={(e) => e.preventDefault()}
+                    // onClick={(e) => e.preventDefault()}
                   >
-                    Home <i className="fa-solid fa-angle-down"></i>
+                    Home
                   </Link>
 
-                  <ul className="dropdown-menu mega-dropdown-menu">
+                  {/* <ul className="dropdown-menu mega-dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/"
@@ -305,19 +305,19 @@ const NavbarTwo = () => {
                         Cyber Security Agency <span className="new">New</span>
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
                 <li className="nav-item">
                   <Link
-                    href="#"
+                    href="/#service"
                     className="nav-link"
-                    onClick={(e) => e.preventDefault()}
+                    // onClick={(e) => e.preventDefault()}
                   >
-                    Services <i className="fa-solid fa-angle-down"></i>
+                    Services
                   </Link>
 
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/services/"
@@ -373,12 +373,23 @@ const NavbarTwo = () => {
                         Service Details
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
                 <li className="nav-item">
                   <Link
-                    href="/about/"
+                    href="/#work"
+                    className={`nav-link ${
+                      currentPath == "/about/" && "active"
+                    }`}
+                  >
+                    Our work
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                    href="/#about"
                     className={`nav-link ${
                       currentPath == "/about/" && "active"
                     }`}
@@ -387,7 +398,7 @@ const NavbarTwo = () => {
                   </Link>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -432,9 +443,9 @@ const NavbarTwo = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -567,67 +578,11 @@ const NavbarTwo = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link
-                    href="#"
-                    className="nav-link"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    Blog <i className="fa-solid fa-angle-down"></i>
-                  </Link>
-
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link
-                        href="/blog/"
-                        className={`nav-link ${
-                          currentPath == "/blog/" && "active"
-                        }`}
-                      >
-                        Blog Grid
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/blog2/"
-                        className={`nav-link ${
-                          currentPath == "/blog2/" && "active"
-                        }`}
-                      >
-                        Blog Right Sidebar
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/blog3/"
-                        className={`nav-link ${
-                          currentPath == "/blog3/" && "active"
-                        }`}
-                      >
-                        Blog Left Sidebar
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/blog/blog-details/"
-                        className={`nav-link ${
-                          currentPath == "/blog/blog-details/" && "active"
-                        }`}
-                      >
-                        Blog Details
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    href="/contact-us/"
+                    href="/#contact-us"
                     className={`nav-link ${
                       currentPath == "/contact-us/" && "active"
                     }`}

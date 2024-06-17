@@ -3,66 +3,67 @@ import Link from "next/link";
 
 const servicesData = [
   {
-    iconName: "pe-7s-rocket bg-13c4a1",
-    title: "Advertising",
+    iconName: "pe-7s-magic-wand bg-13c4a1",
+
+    title: "Event Planning",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "From the initial concept to the final execution, we offer comprehensive event planning services that ensure a smooth and successful event.",
     viewDetails: "/services/service-details/",
     aosDelay: "100",
   },
   {
-    iconName: "pe-7s-diamond bg-6610f2",
-    title: "Branding",
+    iconName: "pe-7s-users bg-ff612f",
+
+    title: "Corporate Events",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "Whether it's a small meeting or a large conference, we provide tailored solutions that meet your corporate needs and objectives.",
     viewDetails: "/services/service-details/",
     aosDelay: "200",
   },
   {
-    iconName: "pe-7s-light bg-ffb700",
-    title: "Digital Marketing",
+    iconName: "pe-7s-diamond bg-6610f2",
+
+    // iconName: "pe-7s-light bg-ffb700",
+    title: "Weddings",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "Our wedding planning services cover everything from venue selection to floral arrangements, ensuring your special day is perfect.",
     viewDetails: "/services/service-details/",
     aosDelay: "300",
   },
   {
     iconName: "pe-7s-target bg-fc3549",
-    title: "Creative Conceptions",
+    title: "Social Events",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "From birthdays to anniversaries, we create personalized and memorable celebrations for every occasion.",
     viewDetails: "/services/service-details/",
     aosDelay: "400",
   },
-  {
-    iconName: "pe-7s-film bg-00d280",
-    title: "Event Organising",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "500",
-  },
-  {
-    iconName: "pe-7s-users bg-ff612f",
-    title: "Wedding Events",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "600",
-  },
+  // {
+  //   iconName: "pe-7s-film bg-00d280",
+  //   title: "Event Organising",
+  //   shortText:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+  //   viewDetails: "/services/service-details/",
+  //   aosDelay: "500",
+  // },
+  // {
+  //   iconName: "pe-7s-users bg-ff612f",
+  //   title: "Wedding Events",
+  //   shortText:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+  //   viewDetails: "/services/service-details/",
+  //   aosDelay: "600",
+  // },
 ];
 
 const Services = () => {
   return (
     <>
-      <div className="bg-fcfbfb pt-100 pb-70">
+      <div id="service" className="bg-fcfbfb pt-100 pb-70">
         <div className="container">
           <div className="section-title">
             <h2>Our Services</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
-            </p>
+            <p>Crafting Exceptional Experiences for Every Occasion.</p>
           </div>
 
           <div className="row justify-content-center">

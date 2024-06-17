@@ -34,7 +34,7 @@ const MainBanner = () => {
             loop
             muted
             alt="App Promo"
-            src="/video/promo-video.mp4"
+            src="/video/promo-video.mov"
             ref={videoEl}
           />
         </div>
@@ -56,8 +56,7 @@ const MainBanner = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Premier Event Management Services for Every Occasion.
                 </p>
 
                 <Link

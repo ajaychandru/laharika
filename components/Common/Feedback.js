@@ -3,35 +3,35 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
 
-import clientImg1 from '../../public/images/clients/client1.png';
-import clientImg2 from '../../public/images/clients/client2.png';
-import clientImg3 from '../../public/images/clients/client3.png';
-import clientImg4 from '../../public/images/clients/client4.png';
-import clientImg5 from '../../public/images/clients/client5.png';
-import clientImg6 from '../../public/images/clients/client6.png';
-import clientImg7 from '../../public/images/clients/client7.png';
-import clientImg8 from '../../public/images/clients/client8.png';
+import clientImg1 from "../../public/images/clients/client1.png";
+import clientImg2 from "../../public/images/clients/client2.png";
+import clientImg3 from "../../public/images/clients/client3.png";
+import clientImg4 from "../../public/images/clients/client4.png";
+import clientImg5 from "../../public/images/clients/client5.png";
+import clientImg6 from "../../public/images/clients/client6.png";
+import clientImg7 from "../../public/images/clients/client7.png";
+import clientImg8 from "../../public/images/clients/client8.png";
 
-import leftQuote from '../../public/images/left-quote-white.png';
+import leftQuote from "../../public/images/left-quote-white.png";
 
 const feedbacskData = [
   {
     name: "John Smith",
     designation: "CEO & Founder, Envato",
     feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Our corporate retreat was a huge success, thanks to [Company Name]. Every detail was perfect!",
   },
   {
     name: "Oliver Smith",
     designation: "React JS Specialist",
     feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "My wedding day was stress-free and beautiful. I couldn't have asked for more.",
   },
   {
     name: "Thomas John",
     designation: "Angular JS Specialist",
     feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "The annual gala was absolutely stunning. [Company Name] exceeded our expectations in every way, from the décor to the seamless coordination.",
   },
 ];
 
@@ -63,7 +63,9 @@ const Feedback = () => {
                 feedbacskData.map((value, i) => (
                   <SwiperSlide key={i}>
                     <div className="single-feedback">
-                      <p><q>{value.feedbacskText}</q></p>
+                      <p>
+                        <q>{value.feedbacskText}</q>
+                      </p>
 
                       <div className="bar"></div>
 

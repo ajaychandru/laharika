@@ -37,10 +37,10 @@ const FunFactsTwo = () => {
       <div className="funfacts-area ptb-100 bg-fcfbfb">
         <div className="container">
           <div className="section-title">
-            <h2>We always try to understand users expectation</h2>
+            <h2>We always try to understand clients expectation</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ensuring Every Detail Reflects Your Vision and Exceeds Your
+              Expectations.
             </p>
           </div>
 
