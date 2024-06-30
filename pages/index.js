@@ -12,7 +12,7 @@ import Partner from "../components/Common/Partner";
 import Footer from "../components/Layouts/Footer";
 import PortfolioDetailsContent2 from "../components/Portfolio/PortfolioDetailsContent2";
 
-const Index = () => {
+const Index = ({ feed }) => {
   return (
     <>
       <NavbarTwo />
@@ -22,7 +22,7 @@ const Index = () => {
       <Services />
       <PortfolioDetailsContent2 />
 
-      <OurWorks />
+      <OurWorks feed={feed} />
 
       <FunFactsTwo />
 
@@ -30,15 +30,28 @@ const Index = () => {
 
       <Feedback />
 
-      {/* <LatestNewsSlider /> */}
+      {/* <LatestNewsSlider feed={feed} /> */}
 
       <CtaAreaTwo />
 
-      <Partner />
+      {/* <Partner /> */}
 
       <Footer />
     </>
   );
+};
+
+export const getStaticProps = async () => {
+  const token = process.env.insta_token;
+  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type&access_token=${token}`;
+  const data = await fetch(url);
+  const feed = await data?.json();
+
+  return {
+    props: {
+      feed,
+    },
+  };
 };
 
 export default Index;

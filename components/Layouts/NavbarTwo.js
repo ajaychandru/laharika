@@ -43,7 +43,7 @@ const NavbarTwo = () => {
       <div id="navbar" className="navbar-area navbar-style-2">
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
-            <Link href="/" className="navbar-brand">
+            {/* <Link href="/" className="navbar-brand">
               <Image
                 src={logo}
                 className="black-logo"
@@ -58,7 +58,7 @@ const NavbarTwo = () => {
                 width={150}
                 height={40}
               />
-            </Link>
+            </Link> */}
 
             {/* Toggle navigation */}
             <button
@@ -378,7 +378,7 @@ const NavbarTwo = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/#work"
+                    href="/#works"
                     className={`nav-link ${
                       currentPath == "/about/" && "active"
                     }`}
@@ -592,11 +592,11 @@ const NavbarTwo = () => {
                 </li>
               </ul>
 
-              <div className="others-options">
+              {/* <div className="others-options">
                 <Link href="/contact-us/" className="btn btn-primary">
                   Get Started
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>

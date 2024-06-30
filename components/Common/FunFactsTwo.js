@@ -62,7 +62,7 @@ const FunFactsTwo = () => {
               ))}
           </div>
 
-          <div
+          {/* <div
             className="contact-cta-box"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -74,7 +74,7 @@ const FunFactsTwo = () => {
             <Link href="/contact-us/" className="btn btn-primary">
               Contact Us
             </Link>
-          </div>
+          </div> */}
 
           <div className="map-bg">
             <Image src={map} alt="map" width={910} height={443} />

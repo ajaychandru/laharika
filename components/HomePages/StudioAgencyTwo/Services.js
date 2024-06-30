@@ -5,18 +5,18 @@ const servicesData = [
   {
     iconName: "pe-7s-magic-wand bg-13c4a1",
 
-    title: "Event Planning",
+    title: "Expert Event Planning ",
     shortText:
-      "From the initial concept to the final execution, we offer comprehensive event planning services that ensure a smooth and successful event.",
+      "Create impactful experiences that inspire & connect. Laharika Creations delivers flawless corporate event planning and execution in Bangalore. Let us handle everything from conferences to product launches, ensuring a resounding success.",
     viewDetails: "/services/service-details/",
     aosDelay: "100",
   },
   {
     iconName: "pe-7s-users bg-ff612f",
 
-    title: "Corporate Events",
+    title: "Powerful Corporate Events",
     shortText:
-      "Whether it's a small meeting or a large conference, we provide tailored solutions that meet your corporate needs and objectives.",
+      " Create impactful experiences that inspire & connect. Laharika Creations delivers flawless corporate event planning and execution in Bangalore. Let us handle everything from conferences to product launches, ensuring a resounding success.",
     viewDetails: "/services/service-details/",
     aosDelay: "200",
   },
@@ -24,20 +24,20 @@ const servicesData = [
     iconName: "pe-7s-diamond bg-6610f2",
 
     // iconName: "pe-7s-light bg-ffb700",
-    title: "Weddings",
+    title: "Dream Wedding",
     shortText:
-      "Our wedding planning services cover everything from venue selection to floral arrangements, ensuring your special day is perfect.",
+      "Planning a wedding in Bangalore? We take care of everything, from dream design to flawless execution. Create lasting memories with our personalized wedding event planning services.",
     viewDetails: "/services/service-details/",
     aosDelay: "300",
   },
-  {
-    iconName: "pe-7s-target bg-fc3549",
-    title: "Social Events",
-    shortText:
-      "From birthdays to anniversaries, we create personalized and memorable celebrations for every occasion.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "400",
-  },
+  // {
+  //   iconName: "pe-7s-target bg-fc3549",
+  //   title: "Social Events",
+  //   shortText:
+  //     "From birthdays to anniversaries, we create personalized and memorable celebrations for every occasion.",
+  //   viewDetails: "/services/service-details/",
+  //   aosDelay: "400",
+  // },
   // {
   //   iconName: "pe-7s-film bg-00d280",
   //   title: "Event Organising",
@@ -63,7 +63,7 @@ const Services = () => {
         <div className="container">
           <div className="section-title">
             <h2>Our Services</h2>
-            <p>Crafting Exceptional Experiences for Every Occasion.</p>
+            <p>Delivering Impactful Events in Bangalore</p>
           </div>
 
           <div className="row justify-content-center">
@@ -79,9 +79,7 @@ const Services = () => {
                 >
                   <div className="service-card-one white-bg border text-center">
                     <i className={value.iconName}></i>
-                    <h3>
-                      <Link href={value.viewDetails}>{value.title}</Link>
-                    </h3>
+                    <h3>{value.title}</h3>
                     <p>{value.shortText}</p>
                   </div>
                 </div>

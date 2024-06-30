@@ -16,23 +16,23 @@ import leftQuote from "../../public/images/left-quote-white.png";
 
 const feedbacskData = [
   {
-    name: "John Smith",
-    designation: "CEO & Founder, Envato",
+    name: "Arjun Janya",
+    designation: "Lead musician KFI",
     feedbacskText:
-      "Our corporate retreat was a huge success, thanks to [Company Name]. Every detail was perfect!",
+      "The Dattatreya program in Kalburgi was truly inspiring. The Laharika team's flawless execution made it an unforgettable experience.",
   },
-  {
-    name: "Oliver Smith",
-    designation: "React JS Specialist",
-    feedbacskText:
-      "My wedding day was stress-free and beautiful. I couldn't have asked for more.",
-  },
-  {
-    name: "Thomas John",
-    designation: "Angular JS Specialist",
-    feedbacskText:
-      "The annual gala was absolutely stunning. [Company Name] exceeded our expectations in every way, from the décor to the seamless coordination.",
-  },
+  // {
+  //   name: "Oliver Smith",
+  //   designation: "React JS Specialist",
+  //   feedbacskText:
+  //     "My wedding day was stress-free and beautiful. I couldn't have asked for more.",
+  // },
+  // {
+  //   name: "Thomas John",
+  //   designation: "Angular JS Specialist",
+  //   feedbacskText:
+  //     "The annual gala was absolutely stunning. [Company Name] exceeded our expectations in every way, from the décor to the seamless coordination.",
+  // },
 ];
 
 const Feedback = () => {

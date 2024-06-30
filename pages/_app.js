@@ -43,9 +43,34 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>
-          Pungent - React Nextjs Multipurpose Startup & Digital Agency Template
-        </title>
+        <title>Laharika Creations | Event management company Bangalore</title>
+        <meta
+          name="description"
+          content="Laharika Creations is a leading event management company based in Bangalore, specializing in creating memorable events tailored to your needs."
+        />
+        <meta
+          name="keywords"
+          content="event management, Bangalore events, event planners, corporate events, wedding planners"
+        />
+        <meta name="author" content="Your Name or Company Name" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="" />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/66812572eaf3bd8d4d167b47/1i1k7ki10';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+`,
+          }}
+        />
       </Head>
 
       <Component {...pageProps} />

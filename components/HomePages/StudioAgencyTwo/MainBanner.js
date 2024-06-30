@@ -48,7 +48,7 @@ const MainBanner = () => {
                   data-aos-duration="1000"
                   data-aos-delay="200"
                 >
-                  Welcome to Laharika Creations!
+                  Best Corporate Event Management in Bangalore
                 </h1>
 
                 <p
@@ -56,10 +56,10 @@ const MainBanner = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
-                  Premier Event Management Services for Every Occasion.
+                  Transforming corporate events into unforgettable experiences{" "}
                 </p>
 
-                <Link
+                {/* <Link
                   href="/contact-us/"
                   className="btn btn-primary mr-0"
                   data-aos="fade-up"
@@ -67,10 +67,10 @@ const MainBanner = () => {
                   data-aos-delay="400"
                 >
                   Contact Us
-                </Link>
+                </Link> */}
               </div>
 
-              <div
+              {/* <div
                 className="video-box"
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -79,7 +79,7 @@ const MainBanner = () => {
                 <div onClick={() => setToggler(!toggler)} className="video-btn">
                   <i className="fa-solid fa-play"></i>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

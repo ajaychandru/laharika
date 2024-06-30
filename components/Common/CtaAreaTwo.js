@@ -23,7 +23,7 @@ const CtaAreaTwo = () => {
             </h3>
           </div>
 
-          <div
+          {/* <div
             className="cta-btn-box"
             data-aos="fade-in"
             data-aos-duration="1000"
@@ -32,7 +32,7 @@ const CtaAreaTwo = () => {
             <Link href="/contact-us/" className="custom-btn">
               Contact Us
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

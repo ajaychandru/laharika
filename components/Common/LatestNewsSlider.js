@@ -43,7 +43,7 @@ const latestNewsSliderData = [
   },
 ];
 
-const LatestNewsSlider = () => {
+const LatestNewsSlider = ({ feed }) => {
   return (
     <>
       <div className="blog-area ptb-100">
@@ -83,8 +83,8 @@ const LatestNewsSlider = () => {
             data-aos-duration="1000"
             data-aos-delay="200"
           >
-            {latestNewsSliderData &&
-              latestNewsSliderData.slice(0, 5).map((value, i) => (
+            {/* {feed?.data &&
+              feed?.data.slice(0, 5).map((value, i) => (
                 <SwiperSlide key={i}>
                   <div className="single-blog-item">
                     <div className="blog-image">
@@ -117,7 +117,45 @@ const LatestNewsSlider = () => {
                     </div>
                   </div>
                 </SwiperSlide>
-              ))}
+              ))} */}
+            {feed?.data?.map((value) => {
+              const { id, caption, media_url } = value;
+
+              return (
+                <SwiperSlide key={id}>
+                  <div className="single-blog-item">
+                    <div className="blog-image">
+                      {/* <Link href={value.readMoreLink}> */}
+                      <Image
+                        src={media_url}
+                        alt="image"
+                        width={510}
+                        height={383}
+                      />
+                      {/* </Link> */}
+
+                      {/* <div className="post-tag">
+                      <Link href={value.readMoreLink}>{value.category}</Link>
+                    </div> */}
+                    </div>
+
+                    <div className="blog-post-content">
+                      {/* <span className="date">{value.date}</span> */}
+                      <h3>
+                        <Link href="">{caption}</Link>
+                      </h3>
+
+                      <p>{caption}</p>
+
+                      {/* <Link href={value.readMoreLink} className="read-more-btn">
+                      Read More
+                      <i className="fa-solid fa-angles-right"></i>
+                    </Link> */}
+                    </div>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
           </Swiper>
         </div>
       </div>

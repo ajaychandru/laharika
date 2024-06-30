@@ -1560,6 +1560,83 @@ About CSS
   color: #0096ff;
   font-size: 16px;
 }
+.our-work-box {
+  text-align: center;
+}
+.our-work-box .video-btn {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90px;
+  height: 90px;
+  background-color: #f9004d;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 40px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.our-work-box .video-btn::after,
+.our-work-box .video-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid #f9004d;
+  transition: 0.5s;
+}
+.our-work-box .video-btn i {
+  padding-left: 8px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  margin-left: auto;
+  margin-right: auto;
+}
+.our-work-box .video-btn::before {
+  /* animation: ripple 2s linear infinite; */
+}
+.our-work-box .video-btn::after {
+  /* animation: ripple 2s linear 1s infinite; */
+}
+.our-work-box .video-btn:hover,
+.our-work-box .video-btn:focus {
+  background-color: #ff2c9c;
+  color: #ffffff;
+}
+.our-work-box .video-btn:hover::after,
+.our-work-box .video-btn:hover::before,
+.our-work-box .video-btn:focus::after,
+.our-work-box .video-btn:focus::before {
+  border-color: #ff2c9c;
+}
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.75);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
 
 .video-box {
   text-align: center;
@@ -1816,7 +1893,7 @@ Case Studies CSS
   position: relative;
   transition: all 0.5s ease;
 }
-.work-card::before {
+/* .work-card::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -1827,10 +1904,10 @@ Case Studies CSS
   border-radius: 8px;
   transition: all 0.5s ease;
   z-index: 1;
-}
-.work-card:hover::before {
+} */
+/* .work-card:hover::before {
   background-color: rgba(0, 0, 0, 0.8);
-}
+} */
 .work-card img {
   border-radius: 8px;
   width: 100%;
@@ -5572,7 +5649,7 @@ Go Top CSS
   position: fixed;
   cursor: pointer;
   bottom: 20px;
-  right: 20px;
+  left: 20px;
   font-size: 35px;
   color: #ffffff;
   background-color: #18181b;

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "../../public/images/logo.png";
+import logo from "../../public/images/laharika.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -27,7 +27,7 @@ const Footer = () => {
                 <p>Premier Event Management Services for Every Occasion.</p>
 
                 <ul className="social-links">
-                  <li>
+                  {/* <li>
                     <a href="https://www.facebook.com/" target="_blank">
                       <i className="fa-brands fa-facebook-f"></i>
                     </a>
@@ -41,9 +41,12 @@ const Footer = () => {
                     <a href="https://linkedin.com/" target="_blank">
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a
+                      href="https://www.instagram.com/laharikacreations"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                   </li>
@@ -71,7 +74,7 @@ const Footer = () => {
                     <Link href="/#service">Services</Link>
                   </li>
                   <li>
-                    <Link href="/#work/">Portfolio</Link>
+                    <Link href="/#works">Portfolio</Link>
                   </li>
                   {/* <li>
                     <Link href="//">Team</Link>
@@ -120,19 +123,20 @@ const Footer = () => {
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra
-                    Street Victoria, Canada.
+                    <i className="fa-solid fa-location-dot"></i>
+                    Shimmoga
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a>
+                    <a href="tel:+917892337203">7892337203</a>
                     <br />
-                    <a href="tel:+324-9442-515">+324-9442-999</a>
+                    {/* <a href="tel:+324-9442-515"></a> */}
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
-                    <a href="mailto:support@pungent.com">support@pungent.com</a>
+                    <a href="mailto:laharikacreations@gmail.com">
+                      laharikacreations@gmail.com
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -144,9 +148,7 @@ const Footer = () => {
           <div className="container">
             <p>
               Copyright &copy; {currentYear} Pungent. All Rights Reserved By{" "}
-              <a href="https://envytheme.com" target="_blank">
-                EnvyTheme
-              </a>
+              Laharika
             </p>
           </div>
         </div>
