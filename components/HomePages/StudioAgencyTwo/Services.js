@@ -30,30 +30,6 @@ const servicesData = [
     viewDetails: "/services/service-details/",
     aosDelay: "300",
   },
-  // {
-  //   iconName: "pe-7s-target bg-fc3549",
-  //   title: "Social Events",
-  //   shortText:
-  //     "From birthdays to anniversaries, we create personalized and memorable celebrations for every occasion.",
-  //   viewDetails: "/services/service-details/",
-  //   aosDelay: "400",
-  // },
-  // {
-  //   iconName: "pe-7s-film bg-00d280",
-  //   title: "Event Organising",
-  //   shortText:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-  //   viewDetails: "/services/service-details/",
-  //   aosDelay: "500",
-  // },
-  // {
-  //   iconName: "pe-7s-users bg-ff612f",
-  //   title: "Wedding Events",
-  //   shortText:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-  //   viewDetails: "/services/service-details/",
-  //   aosDelay: "600",
-  // },
 ];
 
 const Services = () => {
